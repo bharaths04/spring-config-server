@@ -1,0 +1,62 @@
+package com.example.friends;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Friends {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	int friendName;
+	String job;
+	String salary;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getFriendName() {
+		return friendName;
+	}
+
+	public void setFriendName(int friendName) {
+		this.friendName = friendName;
+	}
+
+	public String getJob() {
+		return job;
+	}
+
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	public String getSalary() {
+		return salary;
+	}
+
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+
+	public Friends(int friendName, String job, String salary) {
+		super();
+		this.friendName = friendName;
+		this.job = job;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Friends [id=" + id + ", friendName=" + friendName + ", job=" + job + ", salary=" + salary + "]";
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.example.friends;
+
+public class Friends {
+	int friendName;
+	String job;
+	String salary;
+	
+
+}

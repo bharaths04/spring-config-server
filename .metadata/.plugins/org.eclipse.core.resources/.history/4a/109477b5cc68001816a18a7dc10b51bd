@@ -1,0 +1,22 @@
+package hello;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import com.example.friends.Friends;
+
+@Entity
+public class Customer {
+
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private Long id;
+    private String firstName;
+    private String lastName;
+    private Friends friends;
+
+   
+
+}

@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=G\:\\workspace\\gs-accessing-data-mysql\\.git;G\:\\workspace\\gs-consuming-rest\\.git;G\:\\workspace\\gs-rest-service\\.git;G\:\\workspace\\gs-accessing-data-jpa\\.git;G\:\\workspace\\gs-centralized-configuration\\.git;G\:\\workspace\\gs-scheduling-tasks\\.git;
+GitRepositoriesView.GitDirectories.relative=gs-accessing-data-mysql\\.git;gs-consuming-rest\\.git;gs-rest-service\\.git;gs-accessing-data-jpa\\.git;gs-centralized-configuration\\.git;gs-scheduling-tasks\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

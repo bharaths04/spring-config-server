@@ -1,0 +1,10 @@
+package com.example.friends;
+
+import org.springframework.data.repository.CrudRepository;
+
+import hello.Customer;
+
+public interface FriendsRepository extends CrudRepository<Friends, Long> {
+	
+
+}

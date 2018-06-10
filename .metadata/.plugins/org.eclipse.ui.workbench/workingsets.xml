@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1528518556437_1" label="gs-centralized-configuration" name="gs-centralized-configuration">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/gs-centralized-configuration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/configuration-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/configuration-service" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1517660904659_0" label="Window Working Set" name="Aggregate for window 1517660904658"/>
+</workingSetManager>

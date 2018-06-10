@@ -1,0 +1,23 @@
+package com.example.friends;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Friends {
+	
+
+	int id;
+	int friendName;
+	String job;
+	String salary;
+	
+	public Friends(int friendName, String job, String salary) {
+		super();
+		this.friendName = friendName;
+		this.job = job;
+		this.salary = salary;
+	}
+	
+	
+
+}

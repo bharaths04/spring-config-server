@@ -1,0 +1,24 @@
+package com.example.friends;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping
+public class FriendController {
+	
+	@Autowired
+	private Friends friends;
+	
+	@Autowired
+	private FriendsRepository friendsRepository;
+	
+	@GetMapping("saveFriends")
+	public void saveFriends() {
+		friends.setFriendName("lokesh");
+		friends.setJob("TL");
+		friends.setSalary("200000");
+		
+	}
+
+}
